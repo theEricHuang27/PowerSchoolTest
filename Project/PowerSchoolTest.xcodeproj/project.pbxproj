@@ -15,6 +15,7 @@
 		E08A672021E9220300C23BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08A671E21E9220300C23BCE /* LaunchScreen.storyboard */; };
 		E08A672B21E9220300C23BCE /* PowerSchoolTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A672A21E9220300C23BCE /* PowerSchoolTestTests.swift */; };
 		E08A673621E9220300C23BCE /* PowerSchoolTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A673521E9220300C23BCE /* PowerSchoolTestUITests.swift */; };
+		E08A676B21F8CDDA00C23BCE /* js in Resources */ = {isa = PBXBuildFile; fileRef = E08A676A21F8CDDA00C23BCE /* js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E08A673121E9220300C23BCE /* PowerSchoolTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerSchoolTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08A673521E9220300C23BCE /* PowerSchoolTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSchoolTestUITests.swift; sourceTree = "<group>"; };
 		E08A673721E9220300C23BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08A676A21F8CDDA00C23BCE /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		E08A670921E9220200C23BCE = {
 			isa = PBXGroup;
 			children = (
+				E08A676A21F8CDDA00C23BCE /* js */,
 				E08A671421E9220200C23BCE /* PowerSchoolTest */,
 				E08A672921E9220300C23BCE /* PowerSchoolTestTests */,
 				E08A673421E9220300C23BCE /* PowerSchoolTestUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08A676B21F8CDDA00C23BCE /* js in Resources */,
 				E08A672021E9220300C23BCE /* LaunchScreen.storyboard in Resources */,
 				E08A671D21E9220300C23BCE /* Assets.xcassets in Resources */,
 				E08A671B21E9220200C23BCE /* Main.storyboard in Resources */,
