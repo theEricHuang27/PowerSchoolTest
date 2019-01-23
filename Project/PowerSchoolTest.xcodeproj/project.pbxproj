@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6023080821F10C710065145E /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6023080721F10C710065145E /* TestFile.swift */; };
-		6023080A21F8C23D0065145E /* js in Resources */ = {isa = PBXBuildFile; fileRef = 6023080921F8C23D0065145E /* js */; };
 		E08A671621E9220200C23BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A671521E9220200C23BCE /* AppDelegate.swift */; };
 		E08A671821E9220200C23BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A671721E9220200C23BCE /* ViewController.swift */; };
 		E08A671B21E9220200C23BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08A671921E9220200C23BCE /* Main.storyboard */; };
@@ -37,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		6023080721F10C710065145E /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
-		6023080921F8C23D0065145E /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 		E08A671221E9220200C23BCE /* PowerSchoolTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerSchoolTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08A671521E9220200C23BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08A671721E9220200C23BCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		E08A670921E9220200C23BCE = {
 			isa = PBXGroup;
 			children = (
-				6023080921F8C23D0065145E /* js */,
 				E08A671421E9220200C23BCE /* PowerSchoolTest */,
 				E08A672921E9220300C23BCE /* PowerSchoolTestTests */,
 				E08A673421E9220300C23BCE /* PowerSchoolTestUITests */,
@@ -238,7 +235,6 @@
 				E08A672021E9220300C23BCE /* LaunchScreen.storyboard in Resources */,
 				E08A671D21E9220300C23BCE /* Assets.xcassets in Resources */,
 				E08A671B21E9220200C23BCE /* Main.storyboard in Resources */,
-				6023080A21F8C23D0065145E /* js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

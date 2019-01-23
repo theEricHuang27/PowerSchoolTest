@@ -34,7 +34,11 @@ var context: JSContext? = {
 
 func run() {
 
-    let testFunc = context?.objectForKeyedSubscript("x")
-    let result = testFunc?.call(withArguments: [7]) as Any
+//    let testFunc = context?.objectForKeyedSubscript("x")
+//    let result = testFunc?.call(withArguments: [7]) as Any
+//    print(result)
+    
+    let optimize = context?.objectForKeyedSubscript("calculate");
+    let result = optimize?.call(withArguments: [[5, 6, 7], [7, 8, 9]]) as Any
     print(result)
 }
