@@ -35,6 +35,6 @@ var context: JSContext? = {
 func run() {
 
     let testFunc = context?.objectForKeyedSubscript("x")
-    let result = testFunc?.call(withArguments: JSValue(5)) as Any
+    let result = testFunc?.call(withArguments: [7]) as Any
     print(result)
 }
