@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     @IBAction func login(_ sender: UIButton) {
         let username = Username.text
         let password = Password.text
-        if PowerSchoolTest.login(username: username!, password: password!) {
+        PowerSchoolTest.login(username: username!, password: password!) { (_ result: [String]) in
+            print(result)
+        }
+        if true {
             self.performSegue(withIdentifier: "toHome", sender: self)
         }
     }
@@ -25,7 +28,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        run()
+        PowerSchoolTest.login(username: , password: ) { (_ result: [String]) in
+            print(result)
+        }
     }
 
 

@@ -1,4 +1,5 @@
-"use-strict";
+// "use-strict";
+global getClasses = getClasses
 
 const getClasses = async (username, password) => {
     // change to school directory
